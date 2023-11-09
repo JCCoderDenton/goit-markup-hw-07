@@ -1,0 +1,118 @@
+
+.topline {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+    background: var(--white-color);
+  }
+  
+  .topline__button {
+    color: var(--black-color);
+    padding: 23px 0;
+    margin-right: 93px;
+  }
+  
+  .topline__nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  
+  .topline__nav li {
+    list-style-type: none;
+    margin: 0 50px 0 0;
+    &:last-child {
+        margin: 0;
+      }
+      
+  }
+  
+
+  .topline__nav li a {
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 27px 0;
+    color: var(--black-color);
+    &:hover,
+    &:focus {
+      color: var(--main-color);
+    }
+  }
+  
+ 
+  
+  .topline__contact {
+    padding: 0;
+    margin: 0;
+    height: 16px;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .topline__contact li {
+    padding: 0;
+    list-style-type: none;
+    margin-left: 50px;
+    cursor: pointer;
+    &:first-child {
+        margin: 0;
+      }
+  }
+  
+
+  
+  .topline__contact li a {
+    text-decoration: none;
+    padding: 32px 0;
+    color: rgba(117, 117, 117, 1);
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  
+  .icon-mail {
+    margin-right: 10px;
+    vertical-align: baseline;
+  }
+  
+  .icon-phone {
+    margin-right: 10px;
+    vertical-align: text-top;
+  }
+  
+  
+  .topline__contact li svg {
+    fill: var(--white-grey-color);
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+
+    
+  .topline__contact a:hover,
+  .topline__contact a:hover svg {
+    fill: var(--main-color);
+    color: var(--main-color);
+  }
+  
+  .topline__contact a:focus,
+  .topline__contact a:focus svg {
+    fill: var(--main-color);
+    color: var(--main-color);
+  }
+  
+  .underline-remover[aria-current="page"] {
+    color: var(--main-color);
+    border-bottom: 4px solid var(--main-color);
+  }
+  

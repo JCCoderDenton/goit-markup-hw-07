@@ -1,0 +1,41 @@
+
+.user-social-icon-bg {
+    display: flex;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus{
+      border-radius: 50%;
+      fill: var(--white-color);
+      background: var(--main-color);
+    }
+    
+
+  }
+  
+  .user-social-icon-bg svg {
+    width: 20px;
+    height: 20px;
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      
+  }
+
+  .user-social-icon-bg:hover svg,
+  .user-social-icon-bg:focus svg{
+    fill: var(--white-color);
+  }
+  

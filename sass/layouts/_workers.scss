@@ -1,0 +1,94 @@
+
+.workers {
+  background: var(--white-bg-color);
+}
+
+.workers__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.workers__list .team-block {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 270px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white-color);
+  text-align: center;
+}
+
+.workers__list li:not(:last-child) {
+  margin-right: auto;
+}
+
+.workers__list li h3 {
+  color: var(--black-grey-color);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.workers__list li p {
+  color: var(--white-grey-color);
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  padding: 0;
+  margin: 0;
+}
+
+.workers__user {
+  padding: 30px 32px;
+}
+  
+.socials {
+  margin: 16px 0 0 0;
+  padding: 0;
+  gap: 10px;
+  display: flex;
+  list-style-type: none;
+}
+  
+ 
+.social-icon-bg{
+  border-radius: 50%;
+}
+
+.social svg {
+  fill: #AFB1B8;
+}  
+
+
+.section-icons ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-icons li:not(:last-child) {
+  margin-right: 34px;
+}
+
+.section-icons li a {
+  height: 92px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  fill: #AFB1B8;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-property: fill, border;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-icons a:hover,
+.section-icons a:focus {
+  border: 1px solid var(--main-color);
+  fill: var(--main-color);
+}
