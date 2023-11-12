@@ -15,6 +15,7 @@ body {
   --white-bg-color: #f5f4fa;
   --black-bg-color: #2f303a;
   --active-button-color: #005ca7;
+  --main-font: "Roboto", sans-serif;
 }
 
 img {

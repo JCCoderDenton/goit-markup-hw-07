@@ -1,4 +1,3 @@
-
 .topline {
     padding: 0;
     margin: 0;
@@ -19,33 +18,28 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-  }
-  
-  .topline__nav li {
-    list-style-type: none;
-    margin: 0 50px 0 0;
-    &:last-child {
-        margin: 0;
+    & li {
+      list-style-type: none;
+      margin: 0 50px 0 0;
+      &:last-child {
+          margin: 0;
+        }
+    }
+    & li a {
+      text-decoration: none;
+      transition-duration: 250ms;
+      transition-property: color;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      padding: 27px 0;
+      color: var(--black-color);
+      &:hover,
+      &:focus {
+        color: var(--main-color);
       }
-      
-  }
-  
-
-  .topline__nav li a {
-    text-decoration: none;
-    transition-duration: 250ms;
-    transition-property: color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 27px 0;
-    color: var(--black-color);
-    &:hover,
-    &:focus {
-      color: var(--main-color);
     }
   }
   
  
-  
   .topline__contact {
     padding: 0;
     margin: 0;
@@ -55,28 +49,23 @@
     font-size: 14px;
     display: flex;
     text-decoration: none;
-  }
-  
-  .topline__contact li {
-    padding: 0;
-    list-style-type: none;
-    margin-left: 50px;
-    cursor: pointer;
-    &:first-child {
-        margin: 0;
+    & li {
+      padding: 0;
+      list-style-type: none;
+      margin-left: 50px;
+      cursor: pointer;
+      &:first-child {
+          margin: 0;
+        }
+      & a {
+        text-decoration: none;
+        padding: 32px 0;
+        color: rgba(117, 117, 117, 1);
+        transition-duration: 250ms;
+        transition-property: color;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);        
       }
-  }
-  
-
-  
-  .topline__contact li a {
-    text-decoration: none;
-    padding: 32px 0;
-    color: rgba(117, 117, 117, 1);
-    transition-duration: 250ms;
-    transition-property: color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+    }
   }
   
   .icon-mail {
@@ -95,7 +84,6 @@
     transition-duration: 250ms;
     transition-property: fill;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
   }
 
     

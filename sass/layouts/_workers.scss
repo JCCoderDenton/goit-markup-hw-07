@@ -8,36 +8,37 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
+  & .team-block {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 270px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white-color);
+    text-align: center;
+  }
+  & li:not(:last-child) {
+    margin-right: auto;
+  }
+  & li h3 {
+    color: var(--black-grey-color);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  
+  & li p {
+    color: var(--white-grey-color);
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    padding: 0;
+    margin: 0;
+  }
 }
 
-.workers__list .team-block {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  width: 270px;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--white-color);
-  text-align: center;
-}
 
-.workers__list li:not(:last-child) {
-  margin-right: auto;
-}
 
-.workers__list li h3 {
-  color: var(--black-grey-color);
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.48px;
-  padding: 0;
-  margin: 0 0 10px 0;
-}
 
-.workers__list li p {
-  color: var(--white-grey-color);
-  font-size: 16px;
-  letter-spacing: 0.48px;
-  padding: 0;
-  margin: 0;
-}
 
 .workers__user {
   padding: 30px 32px;
